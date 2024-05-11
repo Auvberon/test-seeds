@@ -3,7 +3,7 @@ name: Build and Push to Artifact Registry
 on:
   workflow_dispatch:
 
-  push:
+  pull_request:
     branches: ["main"]
 
 jobs:
