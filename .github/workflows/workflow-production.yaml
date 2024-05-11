@@ -13,7 +13,7 @@ jobs:
     env:
       IMAGE_NAME: kubernetes-seeds-production
       PROJECT_ID: steady-force-423006-n3
-      GIT_HASH: $(git rev-parse --short "$GITHUB_SHA")
+      GIT_HASH: ${{ steps.commit.outputs.short }}
     steps:
     - name: Checkout
       uses: actions/checkout@v2
