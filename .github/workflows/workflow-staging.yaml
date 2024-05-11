@@ -11,7 +11,7 @@ jobs:
     name: Build and Push to GCP
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: kubernetes-seeds
+      IMAGE_NAME: kubernetes-seeds-staging
       PROJECT_ID: steady-force-423006-n3
     steps:
     - name: Checkout
