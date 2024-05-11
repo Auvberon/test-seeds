@@ -31,5 +31,5 @@ jobs:
 
     - name: Push Docker Image to Artifact Registry
       run: |-
-        docker tag $IMAGE_NAME:latest asia-southeast1-docker.pkg.dev/$PROJECT_ID/images/$IMAGE_NAME:latest
-        docker push asia-southeast1-docker.pkg.dev/$PROJECT_ID/images/$IMAGE_NAME:latest
+        docker tag $IMAGE_NAME:latest asia-southeast1-docker.pkg.dev/$PROJECT_ID/seeds-test/$IMAGE_NAME:latest
+        docker push asia-southeast1-docker.pkg.dev/$PROJECT_ID/seeds-test/$IMAGE_NAME:latest
