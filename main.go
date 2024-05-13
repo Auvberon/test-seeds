@@ -12,7 +12,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Fprintf(w, "<h1>Nama Aplikasi: Seeds Test</h1>")
 	fmt.Fprintf(w, "<p>Nama Environment: %s</p>", environmentName)
-	fmt.Fprintf(w, "<p>Version: 1.1</p>")
+	fmt.Fprintf(w, "<p>Version: 1.2</p>")
 	fmt.Fprintf(w, "<p>Status: OK</p>")
 }
 
